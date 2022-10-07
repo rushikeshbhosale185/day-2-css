@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="style.css">
+    <title>Day 2 CSS Q & A</title>
+</head>
+<body>
+    <h1>Day 2 CSS Interview Questions and Answers</h1>
+    <div class="day2">
+        <p>Q1) What is box sizing?</p>
+        <h5>
+            Ans: <br> 
+            Box-sizing property defines how the width and height gets applied on an element. <br>
+            There are basically two values of box-sizing- <br>
+            <b>a) Content-box (Default)</b>  <br> <b>b) Border-box</b> <br>
+            Default value of box-sizing is content-box, in this case the actual width of the box will be equal to the border and padding and width of the box ( Actual width : width + border + padding ). <br>
+            In case when box-sizing is set to be border-box, then the actual width will be equal to the width of the box itself. Means if we will increase the padding or border of the box then it will not increase the width of the box. <br>
+        </h5>
+
+        <p>Q2) What is animation-delay?</p>
+        <h5>
+            Ans: <br>
+            It is a sub-property of CSS animation. It defines how long the animation has to wait before starting. Using the animation-delay property, you define the delay by specifying the number of seconds or milliseconds it should take before playing.
+            
+        </h5>
+
+        <p>Q3) Which property will you use to merge cells horizontally in a grid?</p>
+        <h5>
+            Ans: <br>
+            grid-column-start and grid-column-end property can be used to merge cells vertically. It also has a shorthand i.e., grid-column: start/end. If you want to merge two elements in row then we will have to use grid-row property inside the child element. Remember these properties are applicable only to child elements not to parent elements.
+        </h5>
+
+        <p>Q4) Which property will you use to merge cells Vertically in a grid?</p>
+        <h5>
+            Ans: <br>
+            grid-row-start and grid-row-end property can be used to merge cells Vertically. It also has a shorthand i.e., grid-row: grid-row-start/grid-row-end;
+        </h5>
+
+        <p>Q5) What is the difference between display none and visibility hidden?</p>
+        <h5>
+            Ans: <br>
+            <div class="display">
+                <div class="none">
+                    <h3>Display: None;</h3>
+                    <ul>
+                        <li>
+                            The display: none property is used to hide elements without deleting them. It does not take up any space.
+                        </li>
+                        <li>
+                            In this case, the tag is removed from the page, which allows other elements to fill in.
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="hidden">
+                    <h3>visibility: hidden;</h3>
+                    <ul>
+                        <li>
+                            The visibility: hidden property also hides an element, but affects the layout i.e., it takes up the space.
+                        </li>
+                        <li>
+                            The element is hidden from view but not the page flow. 
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </h5>
+
+
+    </div>
+</body>
+</html>

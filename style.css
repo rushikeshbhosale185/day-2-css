@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 10px;
+    background-color: black;
+    border: 10px groove aqua;
+    font-family: "Sofia", sans-serif;
+}
+
+h1{
+    color: aqua;
+    text-align: center;
+}
+
+.day2{
+    color: aqua;
+}
+h5{
+    color: gold;
+    font-family: "Audiowide", sans-serif;
+    font-style: italic;
+}
+
+.display{
+    display: flex;
+    justify-content: space-around;
+}
+.none{
+    width: 500px;
+    height: 150px;
+    box-sizing: border-box;
+    border: 2px solid greenyellow;
+    border-radius: 12px;
+    text-align: center;
+
+}
+.hidden{
+    text-align: center;
+    width: 500px;
+    height: 150px;
+    box-sizing: border-box;
+    border: 2px solid greenyellow;
+    border-radius: 12px;
+
+}
+
